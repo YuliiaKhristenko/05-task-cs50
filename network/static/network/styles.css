@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+  user-select: text;
+  word-break: break-all;
+}
+.postform {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+.postbutton {
+  width: 70px;
+  align-self: end;
+}
+.postarea {
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+.comment {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #d6d6d6a9;
+}
+.floatRight {
+  float: right;
+}
+.floatLeft {
+  float: left;
+}
+.frame {
+  width: fit-content;
+  background-color: transparent;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.linkForUser {
+  color: rgb(24, 24, 24);
+  font-style: italic;
+  font-weight: bold;
+}
+.linkForUser:hover {
+  color: #3b82f6;
+}
+.like, .subscribe, .editButton, .confirmButton {
+  border: 0;
+  padding: 0;
+  background: none;
+}
+.like:focus, .subscribe:focus, .editButton:focus, .confirmButton:focus {
+  border: none;
+  outline: none;
+}
+.editButton, .confirmButton {
+  margin-left: 15px;
+}
+.editButton:hover, .confirmButton:hover {
+  text-decoration: underline;
+  color: #2563eb;
+}
+.linkdiv {
+  display: flex;
+  align-items: flex-end;
+}
+.imagepad {
+  margin-bottom: 2px;
+}
+.margbot5 {
+  margin-bottom: 5px;
+}
+.flexgap {
+  gap: 15px;
+}
+.editTextArea {
+  width: 100%;
+  border-radius: 4px;
+}
+.profileName {
+  text-decoration: underline;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.centerText {
+  text-align: center;
+}
